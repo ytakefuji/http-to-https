@@ -11,7 +11,7 @@ $ sudo apt update
 $ sudo apt upgrade
 $ sudo apt install certbot
 </pre>
-Run the following command to generate SSL three certificates where yt.dob.jp is the SSL apache server:
+Run the following command to generate SSL three certificates where yt.dob.jp (you must modify) is the SSL apache server:
 <pre>
 $ sudo certbot certonly --webroot -w /var/www/html -d yt.dob.jp
 </pre>
