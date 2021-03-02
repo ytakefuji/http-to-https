@@ -6,10 +6,9 @@ $ sudo apt install apache2
 </pre>
 Install certbot in order to generate SSL three certificates (cert.pem, privkey.pem, chain.pem)
 <pre>
-$ sudo add-apt-repository ppa:certbot/certbot
 $ sudo apt update
 $ sudo apt upgrade
-$ sudo apt install certbot
+$ sudo apt install certbot python3-certbot-apache
 </pre>
 Run the following command to generate SSL three certificates where yt.dob.jp (you must modify) is the SSL apache server:
 <pre>
