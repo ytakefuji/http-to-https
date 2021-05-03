@@ -26,6 +26,8 @@ We must run the following commands to run SSL-apache2.
 $ sudo a2enmod ssl
 To enable individual user's public_html
 $ sudo a2enmod userdir
+$ mkdir ~/public_html 
+
 $ sudo a2ensite default-ssl
 $ sudo systemctl restart apache2
 </pre>
