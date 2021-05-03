@@ -24,6 +24,8 @@ SSLCertificateChainFile /etc/letsencrypt/live/yt.dob.jp/chain.pem
 We must run the following commands to run SSL-apache2.
 <pre>
 $ sudo a2enmod ssl
+To enable individual user's public_html
+$ sudo a2enmod userdir
 $ sudo a2ensite default-ssl
 $ sudo systemctl restart apache2
 </pre>
